@@ -7,9 +7,6 @@ import com.couchbase.client.java.document.JsonDocument;
 import com.couchbase.client.java.document.json.JsonObject;
 
 import akka.actor.UntypedActor;
-import rx.Observable;
-import rx.functions.Action1;
-import rx.functions.Func1;
 
 public class DbActor extends UntypedActor {
 

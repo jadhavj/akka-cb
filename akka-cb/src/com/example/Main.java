@@ -11,7 +11,9 @@ public class Main extends UntypedActor {
 		ActorSystem sys = ActorSystem.create();
 		ActorRef dbActor = sys.actorOf(Props.create(DbActor.class));
 		ActorRef main = sys.actorOf(Props.create(Main.class));
+		dbActor.tell(new InsertRecords(), main);
 		dbActor.tell(new FetchRecords(), main);
+		sys.shutdown();
 	}
 
 	@Override
