@@ -48,5 +48,8 @@
 	<classpathentry kind="lib" path="lib/akka/slf4j-api-1.7.5.jar"/>
 	<classpathentry kind="lib" path="lib/akka/uncommons-maths-1.2.2a.jar"/>
 	<classpathentry kind="lib" path="lib/akka/zeromq-scala-binding_2.10-0.0.7.jar"/>
+	<classpathentry kind="lib" path="lib/Couchbase-Java-Client-2.0.3/couchbase-core-io-1.0.3.jar"/>
+	<classpathentry kind="lib" path="lib/Couchbase-Java-Client-2.0.3/couchbase-java-client-2.0.3.jar"/>
+	<classpathentry kind="lib" path="lib/Couchbase-Java-Client-2.0.3/rxjava-1.0.4.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

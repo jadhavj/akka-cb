@@ -17,7 +17,7 @@ public class Main extends UntypedActor {
 	@Override
 	public void onReceive(Object message) throws Exception {
 		if (message instanceof OperationCompleted) {
-			System.out.println("Success.");
+			System.out.println(((OperationCompleted) message).getStatus());
 		}
 	}
 }
